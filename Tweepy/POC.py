@@ -4,7 +4,7 @@ import tweepy
 
 load_dotenv()
 
-# Ajoutez vos clés d'accès à l'API Twitter ici
+# Clés d'accès à l'API Twitter
 consumer_key = os.getenv('API_Key')
 consumer_secret = os.getenv('API_Key_Secret')
 access_token = os.getenv('Access_Token')
